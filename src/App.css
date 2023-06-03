@@ -1,0 +1,164 @@
+/**/
+
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Quicksand&display=swap');
+
+html, body{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #b8c3c2;
+    color: white;
+}
+
+.ff-jose{
+    font-family: 'Jost', sans-serif ;
+}
+
+.font-big{
+    font-family: 'Jost', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.background {
+  background-image: url('map1.png'); /* Replace with the path to your background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container1 {
+  background-color: rgba(255, 255, 255, 0.8); /* Replace with your desired background color */
+}
+
+
+.pharmacy-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.pharmacy-list li {
+  margin-bottom: 5px;
+}
+
+.font-m{
+  font-family: 'Jost', 'Franklin Gothic Medium';
+  font-size: 30px;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  color: #0072b1;
+}
+
+.font-big1{
+  font-family: 'Jost', 'Franklin Gothic Medium';
+  font-size: 40px;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  
+}
+
+
+.font-moy{
+  font-family: 'Jost', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+.bg-dark{
+    background-color: #a300fa !important;
+}
+.bg-blue {
+    background-color: #069c2e;
+}
+.text-red {
+    color: #ffffff;
+}
+.text-black {
+    color: #000000;
+}
+.text-g {
+  color:  #000000;
+}
+
+
+.dropdown-item:active {
+    background-color: #c4c4c4 !important;
+}
+.active {
+    color: #0072b1 !important;
+    background-color: #1A1A2E !important;
+    font-weight: 600;
+    transition: transform 0.2s;
+    transform: scale(1.1);
+}
+
+.btn.btn-primary.btn-sm.mx-1.zoom-on-hover {
+  color: #030800;
+  font-size: 16px;
+}
+
+.btn.btn-primary.btn-sm.mx-1.zoom-on-hover:hover {
+  transform: scale(1.1);
+}
+
+.col-ls{
+  width: 50px; /* Set the desired width */
+  height: 20px; /* Maintain the aspect ratio */
+}
+
+.slide-in-left {
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: slideInLeft;
+}
+.slide-in-top {
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: slideInTop;
+}
+.slide-in-bottom {
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: slideInBottom;
+}
+
+/* App.css */
+.navbar {
+  height: 100vh; /* Set the height of the navbar to full viewport height */
+  padding-top: 1rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.navbar-toggler {
+  margin-right: 1rem;
+}
+
+.navbar-nav {
+  width: 100%;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.nav-link:hover {
+  color: #ffc107; /* Change the hover color to yellow (#ffc107) */
+}
+
+.zoom-on-hover:hover {
+  transform: scale(1.1); /* Apply a scale transformation on hover */
+}
+
+/* Add any additional custom styles as needed */
